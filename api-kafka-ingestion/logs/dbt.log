@@ -1,0 +1,102 @@
+[0m14:51:52.060987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7beb3d7ebe00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7beb3c23bed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7beb3c23bb10>]}
+
+
+============================== 14:51:52.092394 | d05fc38f-22db-4550-bb8c-0cb3033a8aec ==============================
+[0m14:51:52.092394 [info ] [MainThread]: Running with dbt=1.12.5
+[0m14:51:52.093256 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'static_parser': 'True', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'invocation_command': 'dbt debug', 'write_json': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'introspect': 'True', 'hints_enabled': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'partial_parse': 'True', 'profiles_dir': '/home/bharathwaj/.dbt', 'warn_error': 'None', 'log_format': 'default', 'empty': 'None', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'use_colors': 'True', 'debug': 'False', 'no_print': 'None', 'log_path': 'logs', 'quiet': 'False', 'printer_width': '80'}
+[0m14:51:52.105495 [info ] [MainThread]: dbt version: 1.12.5
+[0m14:51:52.105959 [info ] [MainThread]: python version: 3.13.9
+[0m14:51:52.106306 [info ] [MainThread]: python path: /media/bharathwaj/406A55226A55164E/anaconda3/bin/python3
+[0m14:51:52.106777 [info ] [MainThread]: os info: Linux-7.0.0-31-generic-x86_64-with-glibc2.39
+[0m14:51:52.159677 [info ] [MainThread]: Using profiles dir at /home/bharathwaj/.dbt
+[0m14:51:52.160309 [info ] [MainThread]: Using profiles.yml file at /home/bharathwaj/.dbt/profiles.yml
+[0m14:51:52.161114 [info ] [MainThread]: Using dbt_project.yml file at /home/bharathwaj/Code/UCanDo/dbt_project.yml
+[0m14:51:52.162149 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m14:51:52.171977 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.20257838, "process_in_blocks": "224", "process_kernel_time": 0.143935, "process_mem_max_rss": "119920", "process_out_blocks": "8", "process_user_time": 1.680249}
+[0m14:51:52.172725 [debug] [MainThread]: Command `dbt debug` failed at 14:51:52.172579 after 0.20 seconds
+[0m14:51:52.173208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7beb3b5595b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7beb3c116c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7beb3c11bac0>]}
+[0m14:51:52.173688 [debug] [MainThread]: Flushing usage events
+[0m14:51:53.397814 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:52:42.994816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb3ce0bfe00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb3ccabbed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb3ccabbb10>]}
+
+
+============================== 14:52:42.999608 | e3cd783a-a8c3-4ab2-92c8-17079b6c1379 ==============================
+[0m14:52:42.999608 [info ] [MainThread]: Running with dbt=1.12.5
+[0m14:52:43.000509 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'cache_selected_only': 'False', 'maximum_seed_size_mib': '1', 'fail_fast': 'False', 'profiles_dir': '/home/bharathwaj/.dbt', 'no_print': 'None', 'warn_error': 'None', 'write_json': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'printer_width': '80', 'use_experimental_parser': 'False', 'log_format': 'default', 'log_path': 'logs', 'version_check': 'True', 'use_colors': 'True', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'empty': 'None', 'debug': 'False', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'invocation_command': 'dbt debug', 'target_path': 'None', 'hints_enabled': 'True'}
+[0m14:52:43.019902 [info ] [MainThread]: dbt version: 1.12.5
+[0m14:52:43.020516 [info ] [MainThread]: python version: 3.13.9
+[0m14:52:43.020992 [info ] [MainThread]: python path: /media/bharathwaj/406A55226A55164E/anaconda3/bin/python3
+[0m14:52:43.021397 [info ] [MainThread]: os info: Linux-7.0.0-31-generic-x86_64-with-glibc2.39
+[0m14:52:43.077379 [info ] [MainThread]: Using profiles dir at /home/bharathwaj/.dbt
+[0m14:52:43.077924 [info ] [MainThread]: Using profiles.yml file at /home/bharathwaj/.dbt/profiles.yml
+[0m14:52:43.078631 [info ] [MainThread]: Using dbt_project.yml file at /home/bharathwaj/Code/UCanDo/dbt_project.yml
+[0m14:52:43.079258 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m14:52:43.081073 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.17955709, "process_in_blocks": "0", "process_kernel_time": 0.143443, "process_mem_max_rss": "119820", "process_out_blocks": "16", "process_user_time": 1.733271}
+[0m14:52:43.082270 [debug] [MainThread]: Command `dbt debug` failed at 14:52:43.082082 after 0.18 seconds
+[0m14:52:43.082911 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb3cca615b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb3cc996c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb3cc99bac0>]}
+[0m14:52:43.083737 [debug] [MainThread]: Flushing usage events
+[0m14:52:55.247597 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:53:55.413810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7337c5a83e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7337c44d7ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7337c44d7b10>]}
+
+
+============================== 14:53:55.418679 | e42f988a-58c2-4e06-8ece-5015f528c4b7 ==============================
+[0m14:53:55.418679 [info ] [MainThread]: Running with dbt=1.12.5
+[0m14:53:55.419778 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt debug', 'static_parser': 'True', 'quiet': 'False', 'fail_fast': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error': 'None', 'partial_parse': 'True', 'log_path': 'logs', 'target_path': 'None', 'printer_width': '80', 'empty': 'None', 'debug': 'False', 'hints_enabled': 'True', 'log_format': 'default', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'write_json': 'True', 'profiles_dir': '/home/bharathwaj/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'use_colors': 'True', 'indirect_selection': 'eager', 'introspect': 'True'}
+[0m14:53:55.432562 [info ] [MainThread]: dbt version: 1.12.5
+[0m14:53:55.433094 [info ] [MainThread]: python version: 3.13.9
+[0m14:53:55.433576 [info ] [MainThread]: python path: /media/bharathwaj/406A55226A55164E/anaconda3/bin/python3
+[0m14:53:55.433996 [info ] [MainThread]: os info: Linux-7.0.0-31-generic-x86_64-with-glibc2.39
+[0m14:53:55.493222 [info ] [MainThread]: Using profiles dir at /home/bharathwaj/.dbt
+[0m14:53:55.493759 [info ] [MainThread]: Using profiles.yml file at /home/bharathwaj/.dbt/profiles.yml
+[0m14:53:55.494319 [info ] [MainThread]: Using dbt_project.yml file at /home/bharathwaj/Code/UCanDo/dbt_project.yml
+[0m14:53:55.495157 [info ] [MainThread]: adapter type: postgres
+[0m14:53:55.495642 [info ] [MainThread]: adapter version: 1.11.0
+[0m14:53:55.496549 [info ] [MainThread]: Configuration:
+[0m14:53:55.497271 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:53:55.497838 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:53:55.498219 [info ] [MainThread]: Required dependencies:
+[0m14:53:55.498849 [debug] [MainThread]: Executing "git --help"
+[0m14:53:55.509434 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:53:55.510005 [debug] [MainThread]: STDERR: "b''"
+[0m14:53:55.510345 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:53:55.510711 [info ] [MainThread]: Connection:
+[0m14:53:55.511073 [info ] [MainThread]:   host: localhost
+[0m14:53:55.511431 [info ] [MainThread]:   port: 5432
+[0m14:53:55.511780 [info ] [MainThread]:   user: postgres
+[0m14:53:55.512085 [info ] [MainThread]:   database: ucando
+[0m14:53:55.512399 [info ] [MainThread]:   schema: dbt
+[0m14:53:55.512715 [info ] [MainThread]:   connect_timeout: 10
+[0m14:53:55.513023 [info ] [MainThread]:   role: None
+[0m14:53:55.513336 [info ] [MainThread]:   search_path: None
+[0m14:53:55.513688 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:53:55.514015 [info ] [MainThread]:   sslmode: None
+[0m14:53:55.514357 [info ] [MainThread]:   sslcert: None
+[0m14:53:55.514763 [info ] [MainThread]:   sslkey: None
+[0m14:53:55.515092 [info ] [MainThread]:   sslrootcert: None
+[0m14:53:55.515425 [info ] [MainThread]:   application_name: dbt
+[0m14:53:55.515770 [info ] [MainThread]:   autocommit: False
+[0m14:53:55.516072 [info ] [MainThread]:   retries: 1
+[0m14:53:55.516535 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m14:53:55.607151 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:53:56.111858 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:53:56.112550 [debug] [MainThread]: On debug: select 1 as id
+[0m14:53:56.113065 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:53:56.133199 [debug] [MainThread]: SQL status: SELECT 1 in 0.020 seconds
+[0m14:53:56.134490 [debug] [MainThread]: On debug: Close
+[0m14:53:56.136924 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:53:56.138539 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:53:56.139046 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/bharathwaj/Code/UCanDo/dbt_project.yml> not found
+
+[0m14:53:56.140954 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.813847, "process_in_blocks": "3400", "process_kernel_time": 0.164818, "process_mem_max_rss": "129776", "process_out_blocks": "24", "process_user_time": 1.846962}
+[0m14:53:56.141932 [debug] [MainThread]: Command `dbt debug` failed at 14:53:56.141755 after 0.82 seconds
+[0m14:53:56.142452 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:53:56.143176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7337c3746fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7337c3762e70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7337c43b3020>]}
+[0m14:53:56.143773 [debug] [MainThread]: Flushing usage events
+[0m14:53:58.731717 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: public
+    schema: public
+
+    tables:
+      - name: transactions
+      - name: behavior_events
+      - name: loans
+      - name: insurance_policies
+      - name: credit_events
+      - name: marketing_events
+      - name: customer_cdc
+      - name: customer_segments
+      - name: customer_loan_propensity
+      - name: customer_loan_propensity_v2
+      - name: customer_graph_features

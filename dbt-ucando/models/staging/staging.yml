@@ -1,0 +1,79 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+      
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_behavior
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_loans
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_insurance
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_credit
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_marketing
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_customer_cdc
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null

@@ -1,0 +1,43 @@
+{{ config(
+    materialized='table',
+    schema='analytics'
+) }}
+
+SELECT
+    customer_id,
+    segment_id,
+    segment_name,
+    loan_propensity_score_v1,
+    loan_propensity_prediction_v1,
+    loan_propensity_score_v2,
+    loan_propensity_prediction_v2,
+    latest_credit_score,
+    credit_score_change,
+    latest_enquiry_count,
+    total_transaction_amount,
+    transaction_count_30d,
+    transaction_amount_90d,
+    avg_transaction_amount,
+    behavior_event_count,
+    distinct_sessions,
+    distinct_devices,
+    loan_count,
+    active_loan_count,
+    insurance_policy_count,
+    active_policy_count,
+    multi_product_customer,
+    marketing_event_count,
+    campaigns_sent,
+    campaigns_opened,
+    campaigns_clicked,
+    campaigns_converted,
+    leads_created,
+    leads_accepted,
+    graph_account_count,
+    graph_transaction_count,
+    graph_device_count,
+    graph_insurance_count,
+    graph_campaign_count,
+    graph_relationship_count,
+    last_activity_at
+FROM {{ ref('customer_intelligence_enriched') }}
